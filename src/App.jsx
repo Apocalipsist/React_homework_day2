@@ -1,16 +1,14 @@
 import Navbar from "./components/Navbar";
 import StudentDisplay from "./components/StudentDisplay";
 
-
 function App() {
-
   return (
     <>
-    <Navbar />
-    <div className="container">
-      <h1>Kekambas Students</h1>
-      <StudentDisplay />
-    </div>
+      <Navbar />
+      <div className="container">
+        <h1>Kekambas Students</h1>
+        <StudentDisplay />
+      </div>
     </>
   );
 }
